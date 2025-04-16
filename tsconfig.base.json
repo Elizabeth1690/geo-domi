@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@frontend/*": ["./frontend/src/*"],
+      "@backend/*": ["./backend/src/*"]
+    }
+  }
+}
